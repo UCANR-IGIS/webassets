@@ -1,0 +1,33 @@
+.answer-code {
+  display: none;
+  color: #333333;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 110%;
+  line-height: 155%;
+}
+
+a.showhidelink {
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 110%;
+  color: DarkBlue;
+}
+h1 {
+  font-size:180%;
+  font-weight: bold;
+  color:red;
+}
+h2 {
+  margin-left: 32px;
+  font-size:130%;
+  font-weight: bold;
+  color: Navy;
+}
+h3 {
+  font-size:110%;
+  font-weight: bold;
+  color: brown;
+}
+
+
+
