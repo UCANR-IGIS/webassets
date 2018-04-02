@@ -4,6 +4,7 @@
   font-family: Verdana, Geneva, sans-serif;
   font-size: 13.86px;
   line-height: 155%;
+  margin-left: 1em;
 }
 
 a.showhidelink {
@@ -11,6 +12,7 @@ a.showhidelink {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 13.86px;
   color: DarkBlue;
+  font-weight: normal;
 }
 h1 {
   font-size:180%;
