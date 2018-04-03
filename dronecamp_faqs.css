@@ -19,5 +19,15 @@ h1 {
   font-weight: bold;
   color:red;
 }
-
-
+p.qtntext {
+  color: #333333;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13.86px;
+  line-height: 155%;
+}
+p.subhead {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13.86px;
+  color: black;
+  font-weight: bold;
+}
