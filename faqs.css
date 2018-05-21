@@ -1,3 +1,17 @@
+/* Styles for FAQs */
+
+p.qtntext {
+  color: #333333;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13.86px;
+  line-height: 155%;
+}
+p.subhead {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13.86px;
+  color: black;
+  font-weight: bold;
+}
 .answer-code {
   display: none;
   color: #333333;
@@ -13,21 +27,4 @@ a.showhidelink {
   font-size: 13.86px;
   color: DarkBlue;
   font-weight: normal;
-}
-h1 {
-  font-size:180%;
-  font-weight: bold;
-  color:red;
-}
-p.qtntext {
-  color: #333333;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 13.86px;
-  line-height: 155%;
-}
-p.subhead {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 13.86px;
-  color: black;
-  font-weight: bold;
 }
