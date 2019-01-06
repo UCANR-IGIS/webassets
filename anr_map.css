@@ -1,0 +1,15 @@
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 200%;
+  color: #333333;
+  font-weight: normal;
+  margin: 10px 0 20px 0;
+  padding: 3px 5px;
+}
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13.86px;
+  color: #333333;
+  line-height: 19.53px;
+  margin: 0 0 10px;
+}
