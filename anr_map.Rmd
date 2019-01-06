@@ -157,6 +157,6 @@ anrloc_df$type <- as.factor(anrloc_df$type)
 datatable(anrloc_df[ ,cols_needed_dir], rownames=FALSE, options=dtdir_options, filter='top') %>% formatRound(c("lat","lon"), 3) %>% DT::formatStyle(columns=1:length(cols_needed_dir), fontSize='100%')
 ```
 
-![](IGIS_ANR_horizontal_550x58.png){style="margin:1em 0;"}
+![](igis_anr_horizontal_550x58.png){style="margin:1em 0;"}
 
 
