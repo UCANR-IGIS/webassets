@@ -28,10 +28,14 @@ dtdir_options <- list(
   pageLength = 25,
   order = list(list(0, 'desc'), list(1, 'asc')))
 
-## Define Tiles
-attr_esri <- "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+## Define Tile Attributes
+attr_esri_imagery <- "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+attr_esri_gray <- 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
 attr_osm <- "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"
-attr_otm <- "Map data: &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>, <ahref=\"http://viewfinderpanoramas.org\">SRTM</a> | Map style: &copy; <a href=\"https://opentopomap.org\">OpenTopoMap</a> (<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC-BY-SA</a>)"
+attr_stamen <- 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+attr_carto <- '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+
+# attr_otm <- "Map data: &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>, <ahref=\"http://viewfinderpanoramas.org\">SRTM</a> | Map style: &copy; <a href=\"https://opentopomap.org\">OpenTopoMap</a> (<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC-BY-SA</a>)"
 
 ## California bounding box
 ca_bb <- matrix(data=c(-124.39264, -114.13121, 32.53578, 42.00952), ncol=2, byrow=TRUE)
@@ -39,6 +43,22 @@ ca_bb <- matrix(data=c(-124.39264, -114.13121, 32.53578, 42.00952), ncol=2, byro
 ## HTML code for popups
 popup_txt <- with(anrloc_df, paste0("<p><b>", name, "</b></p><p>", address, "<br/>", city, ", ", state, " ", zip, "</p>"))
 
+## Create a function to return a standard leaflet object
+leaflet_base <- function(x) {
+ leaflet(x, width=530, height=640) %>% 
+        fitBounds(ca_bb[1,1], ca_bb[2,1], ca_bb[1,2], ca_bb[2,2]) %>% 
+        addTiles("//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
+                 group="OpenStreetMap", attribution=attr_osm) %>%
+        addTiles("//{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", 
+                 group="CartoDB", attribution=attr_carto) %>%
+        addTiles("//stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.png", 
+                 group="Terrain", attribution=attr_stamen) %>%
+        addTiles("//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
+                 group="ESRI World Imagery", attribution=attr_esri_imagery) %>%
+        addLayersControl(baseGroups = c("OpenStreetMap", "CartoDB", "Terrain", "ESRI World Imagery"),
+                 options = layersControlOptions(collapsed = FALSE))
+
+}
 ```
 
 ![](ucanr_new-logo_700x98.png){style="margin:0.5em 0;"}
@@ -60,25 +80,11 @@ idx_ucce <- anrloc_df$type == "UCCE"
 ucce_shared <- crosstalk::SharedData$new(anrloc_df[idx_ucce, cols_needed_map])
 
 ## Create the leaflet object and add tiles
-leafshared_ucce <- leaflet(ucce_shared, width=530, height=640) %>% 
-          fitBounds(ca_bb[1,1], ca_bb[2,1], ca_bb[1,2], ca_bb[2,2]) %>% 
-          addTiles("//{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png", 
-                   group="OpenStreetMap BW", attribution=attr_osm) %>%
-          addTiles("//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
-                   group="OpenStreetMap", attribution=attr_osm) %>%
-          addTiles("//{s}.tile.opentopomap.org/{z}/{x}/{y}.png", 
-                   group="OpenTopoMap", attribution=attr_otm) %>%
-          addTiles("//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
-                   group="ESRI World Imagery", attribution=attr_esri) %>%
-          addLayersControl(baseGroups = c("OpenStreetMap BW", "OpenStreetMap", "OpenTopoMap", "ESRI World Imagery"),
-                   options = layersControlOptions(collapsed = FALSE)) %>%
+leafshared_ucce <- leaflet_base(ucce_shared) %>%
           addCircleMarkers(~lon, ~lat, label=~htmltools::htmlEscape(name), 
-                           popup=popup_txt[idx_ucce],
-                           radius=6, 
+                           popup=popup_txt[idx_ucce], radius=6, 
                            color=rgb(83,83,134,maxColorValue=255), 
-                           stroke=FALSE,
-                           fillOpacity=0.9)
-
+                           stroke=FALSE, fillOpacity=0.9)
 tags$div(style = 'width:540px;display:block;float:left;', leafshared_ucce)
 ```
 
@@ -105,20 +111,8 @@ redtriangle <- makeIcon(
 )
 
 ## Create the leaflet object and add tiles
-leafshared_rec <- leaflet(rec_shared, width=530, height=640) %>% 
-          fitBounds(ca_bb[1,1], ca_bb[2,1], ca_bb[1,2], ca_bb[2,2]) %>% 
-          addTiles("//{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png", 
-                   group="OpenStreetMap BW", attribution=attr_osm) %>%
-          addTiles("//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
-                   group="OpenStreetMap", attribution=attr_osm) %>%
-          addTiles("//{s}.tile.opentopomap.org/{z}/{x}/{y}.png", 
-                   group="OpenTopoMap", attribution=attr_otm) %>%
-          addTiles("//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
-                   group="ESRI World Imagery", attribution=attr_esri) %>%
-          addLayersControl(baseGroups = c("OpenStreetMap BW", "OpenStreetMap", "OpenTopoMap", "ESRI World Imagery"),
-                   options = layersControlOptions(collapsed = FALSE)) %>%
+leafshared_rec <- leaflet_base(rec_shared) %>%
           addMarkers(~lon, ~lat, label=~htmltools::htmlEscape(name), icon=redtriangle, popup=popup_txt[idx_rec])
-
 tags$div(style = 'width:540px;display:block;float:left;', leafshared_rec)
 ```
 
@@ -144,22 +138,9 @@ purple_hex <- makeIcon(
   iconWidth=14, iconHeight=14
 )
 
-
 ## Create the leaflet object and add tiles
-leafshared_aes <- leaflet(aes_shared, width=530, height=640) %>% 
-          fitBounds(ca_bb[1,1], ca_bb[2,1], ca_bb[1,2], ca_bb[2,2]) %>% 
-          addTiles("//{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png", 
-                   group="OpenStreetMap BW", attribution=attr_osm) %>%
-          addTiles("//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
-                   group="OpenStreetMap", attribution=attr_osm) %>%
-          addTiles("//{s}.tile.opentopomap.org/{z}/{x}/{y}.png", 
-                   group="OpenTopoMap", attribution=attr_otm) %>%
-          addTiles("//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
-                   group="ESRI World Imagery", attribution=attr_esri) %>%
-          addLayersControl(baseGroups = c("OpenStreetMap BW", "OpenStreetMap", "OpenTopoMap", "ESRI World Imagery"),
-                   options = layersControlOptions(collapsed = FALSE)) %>%
+leafshared_aes <- leaflet_base(aes_shared) %>%
           addMarkers(~lon, ~lat, label=~htmltools::htmlEscape(name), icon=purple_hex, popup=popup_txt[idx_aes])
-
 tags$div(style = 'width:540px;display:block;float:left;', leafshared_aes)
 ```
 
