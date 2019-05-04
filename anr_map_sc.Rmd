@@ -1,0 +1,162 @@
+---
+output: 
+  html_document:
+    css: anr_map.css
+    self_contained: yes
+    lib_dir: lib
+---
+
+```{r setup, include=FALSE}
+library(leaflet)
+library(DT)
+library(htmltools)
+anrloc_df <- read.csv("anr_locations.csv", stringsAsFactors = FALSE)
+names(anrloc_df)[names(anrloc_df)=="elevation"] <- "elev (m)"
+
+cols_needed_map <- c("name", "address", "city", "state", "zip", "lat", "lon", "elev (m)")
+cols_needed_dir <- c("type", "name", "address", "city", "zip", "lat", "lon", "elev (m)")
+dtshared_options <- list(
+  autoWidth = TRUE,
+  pageLength = 60,
+  dom = 'ft',
+  scrollY = "550",
+  columnDefs = list(list(visible=FALSE, targets=c(1,3,4,5,6,7))),
+  order = list(list(0, 'asc')))
+
+dtdir_options <- list(
+  autoWidth = TRUE,
+  pageLength = 25,
+  order = list(list(0, 'desc'), list(1, 'asc')))
+
+## Define Tile Attributes
+attr_esri_imagery <- "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+attr_esri_gray <- 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
+attr_osm <- "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"
+attr_stamen <- 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+attr_carto <- '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+
+# attr_otm <- "Map data: &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>, <ahref=\"http://viewfinderpanoramas.org\">SRTM</a> | Map style: &copy; <a href=\"https://opentopomap.org\">OpenTopoMap</a> (<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC-BY-SA</a>)"
+
+## California bounding box
+ca_bb <- matrix(data=c(-124.39264, -114.13121, 32.53578, 42.00952), ncol=2, byrow=TRUE)
+
+## HTML code for popups
+popup_txt <- with(anrloc_df, paste0("<p><b>", name, "</b></p><p>", address, "<br/>", city, ", ", state, " ", zip, "</p>"))
+
+## Create a function to return a standard leaflet object
+leaflet_base <- function(x) {
+ leaflet(x, width=530, height=640) %>% 
+        fitBounds(ca_bb[1,1], ca_bb[2,1], ca_bb[1,2], ca_bb[2,2]) %>% 
+        addTiles("//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
+                 group="OpenStreetMap", attribution=attr_osm) %>%
+        addTiles("//{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", 
+                 group="CartoDB", attribution=attr_carto) %>%
+        addTiles("//stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.png", 
+                 group="Terrain", attribution=attr_stamen) %>%
+        addTiles("//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
+                 group="ESRI World Imagery", attribution=attr_esri_imagery) %>%
+        addLayersControl(baseGroups = c("OpenStreetMap", "CartoDB", "Terrain", "ESRI World Imagery"),
+                 options = layersControlOptions(collapsed = FALSE))
+
+}
+```
+
+![](ucanr_new-logo_700x98.png){style="margin:0.5em 0;"}
+
+<div style="font-style:italic; color:navy;font-size:120%; margin-bottom:2em;">UCANR's network of UC researchers and educators bring practical, trusted, science-based answers to Californians.</div>
+
+## System Maps {.tabset .tabset-fade}
+
+UCANR researchers are distributed throughout California. Visit the tabs below for maps of the Cooperative Extension Offices, RECs, and Affiliated Campuses.
+
+### UC Cooperative Extension
+
+**Cooperative Extension Offices**
+
+Since 1913, UCCE Advisors have been living in the communities they serve, working hand-in-hand with growers, ranchers, and families. Today, over 200 Advisors based in 57 county offices support research and local initiatives to create healthy communities, vibrant ecosystems, and economic development.
+
+```{r leafletshared_ucce, echo=FALSE, cache=TRUE, eval=TRUE}
+idx_ucce <- anrloc_df$type == "UCCE"
+ucce_shared <- crosstalk::SharedData$new(anrloc_df[idx_ucce, cols_needed_map])
+
+## Create the leaflet object and add tiles
+leafshared_ucce <- leaflet_base(ucce_shared) %>%
+          addCircleMarkers(~lon, ~lat, label=~htmltools::htmlEscape(name), 
+                           popup=popup_txt[idx_ucce], radius=6, 
+                           color=rgb(83,83,134,maxColorValue=255), 
+                           stroke=FALSE, fillOpacity=0.9)
+tags$div(style = 'width:540px;display:block;float:left;', leafshared_ucce)
+```
+
+```{r dtshared_ucce, echo=FALSE, cache=TRUE, eval=TRUE}
+dt_shared_ucce <- DT::datatable(ucce_shared, rownames=FALSE, width=320, options=dtshared_options)
+tags$div(style='display:block;float:left;', dt_shared_ucce)
+tags$div(style='clear:both;')
+```
+
+### Research & Extension Centers
+
+**Research & Extension Centers**
+
+ANR’s nine field stations are located throughout California's diverse agricultural regions and ecosystems. RECs support research projects and public education events to deliver the highest-quality science to growers, industry, and land managers.
+
+```{r leafletshared_rec, echo=FALSE, cache=TRUE, eval=TRUE}
+idx_rec <- anrloc_df$type == "REC"
+rec_shared <- crosstalk::SharedData$new(anrloc_df[idx_rec, cols_needed_map])
+
+## Make a triangle marker
+redtriangle <- makeIcon(
+  iconUrl="triangle_20x20.png",
+  iconWidth=14, iconHeight=14
+)
+
+## Create the leaflet object and add tiles
+leafshared_rec <- leaflet_base(rec_shared) %>%
+          addMarkers(~lon, ~lat, label=~htmltools::htmlEscape(name), icon=redtriangle, popup=popup_txt[idx_rec])
+tags$div(style = 'width:540px;display:block;float:left;', leafshared_rec)
+```
+
+```{r dtshared_rec, echo=FALSE, cache=TRUE, eval=TRUE}
+dt_shared_rec <- DT::datatable(rec_shared, rownames=FALSE, width=320, options=dtshared_options)
+tags$div(style='display:block;float:left;', dt_shared_rec)
+tags$div(style='clear:both;')
+```
+
+### Affiliated Campuses
+
+**Affiliated Campuses**
+
+Collectively known as the **Agriculture Experiment Station**, over 120 ANR Specialists and 600 affiliated faculty are based on five UC campuses: Berkeley, Davis, Riverside, Merced, and Santa Barbara. Campus based ANR faculty conduct applied research and teaching programs in agriculture, natural resources, nutritional science, and policy.
+
+```{r leafletshared_aes, echo=FALSE, cache=TRUE, eval=TRUE}
+idx_aes <- anrloc_df$type == "Campuses"
+aes_shared <- crosstalk::SharedData$new(anrloc_df[idx_aes, cols_needed_map])
+
+## Make a marker
+purple_hex <- makeIcon(
+  iconUrl="hexicon_20x20.png",
+  iconWidth=14, iconHeight=14
+)
+
+## Create the leaflet object and add tiles
+leafshared_aes <- leaflet_base(aes_shared) %>%
+          addMarkers(~lon, ~lat, label=~htmltools::htmlEscape(name), icon=purple_hex, popup=popup_txt[idx_aes])
+tags$div(style = 'width:540px;display:block;float:left;', leafshared_aes)
+```
+
+```{r dtshared_aes, echo=FALSE, cache=TRUE, eval=TRUE}
+dt_shared_aes <- DT::datatable(aes_shared, rownames=FALSE, width=320, options=dtshared_options)
+tags$div(style='display:block;float:left;', dt_shared_aes)
+tags$div(style='clear:both;')
+```
+
+## All Locations Info
+
+```{r dtdir, echo=FALSE, cache=TRUE}
+anrloc_df$type <- as.factor(anrloc_df$type)
+datatable(anrloc_df[ ,cols_needed_dir], rownames=FALSE, options=dtdir_options, filter='top') %>% formatRound(c("lat","lon"), 3) %>% DT::formatStyle(columns=1:length(cols_needed_dir), fontSize='100%')
+```
+
+![](IGIS_ANR_horizontal_550x58.png){style="margin:1em 0;"}
+
+

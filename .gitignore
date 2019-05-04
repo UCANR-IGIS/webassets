@@ -1,2 +1,4 @@
-
+anr_map_cache/*
+anr_map_sc_cache/*
 *.bak
+.gitignore
