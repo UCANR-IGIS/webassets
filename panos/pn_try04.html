@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC Botanical Garden</title>
+    <link rel="stylesheet" href="pannellum.css"/>
+    <script type="text/javascript" src="pannellum.js"></script>
+    <style>
+    #panorama {
+        width: 95vw;
+        height: 95vh;
+        border: 1px solid brown;
+    }
+    </style>
+</head>
+<body>
+<div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "images360/ucb-botanical-garden_2018-09-27.jpg",
+    "autoRotate": -2,
+    "title": "UC Berkeley Botanical Garden",
+    "author": "&copy; Andy Lyons"
+});
+</script>
+
+</body>
+</html>
