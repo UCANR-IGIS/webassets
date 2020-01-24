@@ -26,5 +26,9 @@ a.showhidelink {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 13.86px;
   color: DarkBlue;
-  font-weight: normal;
+  font-weight: 700;
+}
+
+a.nobold {
+  font-weight:normal;
 }
