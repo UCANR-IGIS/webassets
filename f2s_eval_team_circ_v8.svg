@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="eval_team_circ_v8.svg"
+   id="svg5135"
+   version="1.1"
+   height="1082.905"
+   width="1082.3448"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <style
+     id="style2080">.bfi { fill:#dedeff; transition: fill .2s; }
+.bfi:hover { fill:#b2b2cc; }
+.fig { fill:#ffd9d9; transition: fill .2s; }
+.fig:hover { fill:#ccaeae; }
+.ucb { fill:#cfe4ff; transition: fill .2s; }
+.ucb:hover { fill:#a6b6cc; }
+.igis { fill:#ffdda6; transition: fill .2s; }
+.igis:hover { fill:#ccb185; }
+.ucanr { fill:#c3f7c8; transition: fill .2s; }
+.ucanr:hover {fill:#9bc49f}
+.usda { fill:#f4d9ff; transition: fill .2s; }
+.usda:hover { fill:#c3aecc; }</style>
+  <metadata
+     id="metadata5141">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5139">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient67658">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop67652" />
+      <stop
+         style="stop-color:#fff7a1;stop-opacity:1;"
+         offset="0.44999999"
+         id="stop67654" />
+      <stop
+         style="stop-color:#fff260;stop-opacity:1;"
+         offset="1"
+         id="stop67656" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient64230">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop64224" />
+      <stop
+         style="stop-color:#ffdda6;stop-opacity:1;"
+         offset="0.44999999"
+         id="stop64226" />
+      <stop
+         style="stop-color:#ffc362;stop-opacity:1;"
+         offset="1"
+         id="stop64228" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient62013">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop62007" />
+      <stop
+         style="stop-color:#c3f7c8;stop-opacity:1;"
+         offset="0.44999999"
+         id="stop62009" />
+      <stop
+         style="stop-color:#85ef90;stop-opacity:1;"
+         offset="1"
+         id="stop62011" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient58594">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop58588" />
+      <stop
+         style="stop-color:#ffd9d9;stop-opacity:1;"
+         offset="0.44999999"
+         id="stop58590" />
+      <stop
+         style="stop-color:#ff9595;stop-opacity:1;"
+         offset="1"
+         id="stop58592" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient55179">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop55173" />
+      <stop
+         style="stop-color:#f4d9ff;stop-opacity:1;"
+         offset="0.44999999"
+         id="stop55175" />
+      <stop
+         style="stop-color:#e194ff;stop-opacity:1;"
+         offset="1"
+         id="stop55177" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient40420">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop40416" />
+      <stop
+         style="stop-color:#dedeff;stop-opacity:1;"
+         offset="0.44999999"
+         id="stop44782" />
+      <stop
+         style="stop-color:#9c9cff;stop-opacity:1;"
+         offset="1"
+         id="stop40418" />
+    </linearGradient>
+    <radialGradient
+       gradientTransform="translate(-509,-252)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient38029"
+       fx="1051.6"
+       fy="1082.4"
+       cx="1051.6"
+       cy="1082.4"
+       r="82.400002">
+      <stop
+         offset="0%"
+         stop-color="#fff"
+         id="stop38023" />
+      <stop
+         offset="0.44999999"
+         stop-color="#cfe4ff"
+         id="stop38025" />
+      <stop
+         offset="100%"
+         stop-color="#8abdff"
+         id="stop38027" />
+    </radialGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radialGradient38029"
+       id="radialGradient38021"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.97967094,-0.00273019,0.00273803,0.98248983,-499.50205,-227.63472)"
+       cx="646.367"
+       cy="1299.3693"
+       fx="646.367"
+       fy="1299.3693"
+       r="82.400002" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient40420"
+       id="radialGradient40422"
+       cx="137.05701"
+       cy="1047.2113"
+       fx="137.05701"
+       fy="1047.2113"
+       r="81.450798"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient55179"
+       id="radialGradient53711"
+       gradientUnits="userSpaceOnUse"
+       cx="137.05701"
+       cy="1047.2113"
+       fx="137.05701"
+       fy="1047.2113"
+       r="81.450798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient58594"
+       id="radialGradient57845"
+       gradientUnits="userSpaceOnUse"
+       cx="137.05701"
+       cy="1047.2113"
+       fx="137.05701"
+       fy="1047.2113"
+       r="81.450798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient62013"
+       id="radialGradient61262"
+       gradientUnits="userSpaceOnUse"
+       cx="137.05701"
+       cy="1047.2113"
+       fx="137.05701"
+       fy="1047.2113"
+       r="81.450798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient64230"
+       id="radialGradient63481"
+       gradientUnits="userSpaceOnUse"
+       cx="137.05701"
+       cy="1047.2113"
+       fx="137.05701"
+       fy="1047.2113"
+       r="81.450798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient67658"
+       id="radialGradient66905"
+       gradientUnits="userSpaceOnUse"
+       cx="137.05701"
+       cy="1047.2113"
+       fx="137.05701"
+       fy="1047.2113"
+       r="81.450798" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg5135"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:cy="494.93235"
+     inkscape:cx="603.98524"
+     inkscape:zoom="0.59604106"
+     showgrid="false"
+     id="namedview5137"
+     inkscape:window-height="847"
+     inkscape:window-width="1600"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     d="m 653.51976,921.8332 -48.20933,-67.07494"
+     stroke="#666666"
+     stroke-width="3"
+     fill="none"
+     id="path3400"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 841.40035,809.926 -40.0166,-70.49774"
+     stroke="#666666"
+     fill="none"
+     id="path3340"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 807.65575,442.39389 122.9305,195.53717"
+     stroke="#666666"
+     fill="none"
+     id="path3344"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 829.02545,422.76713 97.0766,70.53604"
+     stroke="#666666"
+     fill="none"
+     id="path3348"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 828.73155,356.90439 55.0582,1.88161"
+     stroke="#666666"
+     fill="none"
+     id="path3352"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 800.84935,312.5021 26.7821,-58.09296"
+     stroke="#666666"
+     fill="none"
+     id="path3356"
+     style="stroke-width:1.44513"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 746.33949,295.60819 -20.12634,-123.56487"
+     stroke="#666666"
+     fill="none"
+     id="path3360"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 511.22632,182.48819 -4.40951,-23.88804"
+     stroke="#666666"
+     fill="none"
+     id="path3364"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 460.66881,223.13897 -73.09785,-48.97029"
+     stroke="#666666"
+     fill="none"
+     id="path3368"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 243.60032,372.55204 -31.64943,-36.76321"
+     stroke="#666666"
+     fill="none"
+     id="path3372"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 163.74202,442.26939 59.33264,-1.65565"
+     stroke="#666666"
+     fill="none"
+     id="path3376"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 141.10047,592.79453 102.47536,-106.04438"
+     stroke="#666666"
+     fill="none"
+     id="path3380"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 159.91389,653.97649 94.53511,23.37609"
+     stroke="#666666"
+     stroke-width="2"
+     fill="none"
+     id="path3384"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 229.17315,786.506 36.74859,-36.74859"
+     stroke="#666666"
+     fill="none"
+     id="path3388"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 323.95654,871.7234 2.51661,-90.23401"
+     stroke="#666666"
+     fill="none"
+     id="path3392"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 472.86145,933.3998 -93.8766,-169.04871"
+     stroke="#666666"
+     fill="none"
+     id="path3396"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 517.26145,924.792 13.73113,-53.5315"
+     stroke="#666666"
+     stroke-width="2"
+     fill="none"
+     id="path3404"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 531.97632,370.27502 -1.33,-27.65071"
+     stroke="#666666"
+     stroke-width="6"
+     fill="none"
+     id="path3424"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 376.30998,899.8721 101.36926,-80.55902"
+     stroke="#666666"
+     stroke-width="2"
+     fill="none"
+     id="path3434"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 397.63534,469.60868 -23.62681,-11.77203"
+     stroke="#666666"
+     stroke-width="6"
+     fill="none"
+     id="path3408"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 393.18096,651.30819 27.52487,-24.31804"
+     stroke="#666666"
+     stroke-width="6"
+     fill="none"
+     id="path3412"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 703.90413,615.9189 -21.78804,-19.41536"
+     stroke="#666666"
+     stroke-width="6"
+     fill="none"
+     id="path3420"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 702.49632,431.54064 -23.56804,21.77853"
+     stroke="#666666"
+     stroke-width="5"
+     fill="none"
+     id="path3438"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 553.03949,714.36721 0.32634,-30.25656"
+     stroke="#666666"
+     stroke-width="6"
+     fill="none"
+     id="path3416"
+     sodipodi:nodetypes="cc" />
+  <a
+     class="revbg"
+     xlink:href="/member/friedman-debbie/"
+     id="aFriedman"
+     xlink:title="Debbie Friedman"
+     transform="translate(-211.29685,-129.144)">
+    <circle
+       r="80.950798"
+       cy="651.72546"
+       cx="1212.6909"
+       id="circle2018"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="fig" />
+    <text
+       id="text2033"
+       y="634.35229"
+       x="1214.0275"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="634.35229"
+         x="1214.0275"
+         sodipodi:role="line"
+         id="tspan3890">Debbie Friedman</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan2035"
+         y="654.35229"
+         x="1214.0275"
+         sodipodi:role="line">FCS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1214.4469"
+       y="678.77246"
+       id="text2041"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1214.4469"
+         y="678.77246"
+         id="tspan2039">Project Co-Lead</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan2045"
+         sodipodi:role="line"
+         x="1214.4469"
+         y="697.10583">Policy Co-Lead</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/wesley-jessie/"
+     id="aWesley"
+     transform="translate(-251.63238,-297.60415)"
+     inkscape:label=""
+     xlink:title="Jessie Wesley">
+    <circle
+       r="80.950798"
+       cy="651.72546"
+       cx="1212.6909"
+       id="circle1510"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="fig" />
+    <text
+       id="text1516"
+       y="634.35229"
+       x="1214.0275"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="634.35229"
+         x="1214.0275"
+         sodipodi:role="line"
+         id="tspan1512">Jessie Wesley</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan1514"
+         y="654.35229"
+         x="1214.0275"
+         sodipodi:role="line">FIG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1214.4469"
+       y="678.77246"
+       id="text1522"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan1520"
+         sodipodi:role="line"
+         x="1214.4469"
+         y="678.77246">Process Evaluation</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1214.4469"
+         y="697.10583"
+         id="tspan2820">Policy Team</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/thayer-linden/"
+     id="aThayer"
+     transform="translate(-352.4712,-467.25063)"
+     xlink:title="Linden Thayer"
+     inkscape:label="">
+    <circle
+       r="80.950798"
+       cy="651.72546"
+       cx="1212.6909"
+       id="circle4021"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="fig" />
+    <text
+       id="text4027"
+       y="634.35229"
+       x="1214.0275"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="634.35229"
+         x="1214.0275"
+         sodipodi:role="line"
+         id="tspan4023">Linden Thayer</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan4025"
+         y="654.35229"
+         x="1214.0275"
+         sodipodi:role="line">FIG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1214.4469"
+       y="678.77246"
+       id="text4033"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1214.4469"
+         y="678.77246"
+         id="tspan4031">Student Impacts</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1214.4469"
+         y="697.10583"
+         id="tspan4041">Senior Scientist</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/katz-beth/"
+     id="aKatz"
+     transform="translate(-512.62697,-551.4807)"
+     inkscape:label=""
+     xlink:title="Beth Katz">
+    <circle
+       r="80.950798"
+       cy="651.72546"
+       cx="1212.6909"
+       id="circle4045"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="fig" />
+    <text
+       id="text4051"
+       y="617.74353"
+       x="1212.8411"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="617.74353"
+         x="1212.8411"
+         sodipodi:role="line"
+         id="tspan4047">Beth Katz</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan4049"
+         y="637.74353"
+         x="1212.8411"
+         sodipodi:role="line">FIG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1213.2605"
+       y="662.1637"
+       id="text4057"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1213.2605"
+         y="662.1637"
+         id="tspan4053">Co-PI</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1213.2605"
+         y="680.49707"
+         id="tspan4063">Student Impacts</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1213.2605"
+         y="698.83044"
+         id="tspan4055">Co-Lead</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/low-robin/"
+     id="aLow"
+     transform="translate(-237.29578,50.297274)"
+     inkscape:label=""
+     xlink:title="Robin Low">
+    <circle
+       r="80.950798"
+       cy="651.72546"
+       cx="1212.6909"
+       id="circle6484"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="fig" />
+    <text
+       id="text6490"
+       y="634.35229"
+       x="1214.0275"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="634.35229"
+         x="1214.0275"
+         sodipodi:role="line"
+         id="tspan6486">Robin Low</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan6488"
+         y="654.35229"
+         x="1214.0275"
+         sodipodi:role="line">FIG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1214.4469"
+       y="678.77246"
+       id="text6496"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan6494"
+         sodipodi:role="line"
+         x="1214.4469"
+         y="678.77246">Project Manager</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/feenstra-gail/"
+     id="aFeenstra"
+     transform="translate(-712.27764,-570.77467)"
+     inkscape:label=""
+     xlink:title="Gail Feenstra">
+    <circle
+       r="80.950798"
+       cy="651.72546"
+       cx="1212.6909"
+       id="circle7742"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="ucanr" />
+    <text
+       id="text7748"
+       y="623.6156"
+       x="1213.6799"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="623.6156"
+         x="1213.6799"
+         sodipodi:role="line"
+         id="tspan7744">Gail Feenstra</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan7746"
+         y="643.6156"
+         x="1213.6799"
+         sodipodi:role="line">UCANR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1214.0994"
+       y="668.03577"
+       id="text7756"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1214.0994"
+         y="668.03577"
+         id="tspan7752">Principal</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1214.0994"
+         y="686.36914"
+         id="tspan51782">Investigator</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1214.0994"
+         y="704.70251"
+         id="tspan7754">(PI)</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/jetter-karen/"
+     id="aJetter"
+     transform="translate(-1094.8016,-603.49054)"
+     inkscape:label=""
+     xlink:title="Karen Jetter">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle9005"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="ucanr" />
+    <text
+       id="text9011"
+       y="717.56885"
+       x="1413.3306"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="717.56885"
+         x="1413.3306"
+         sodipodi:role="line"
+         id="tspan9007">Karen Jetter</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan9009"
+         y="737.56885"
+         x="1413.3306"
+         sodipodi:role="line">UCANR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1413.75"
+       y="761.98901"
+       id="text9017"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1413.75"
+         y="761.98901"
+         id="tspan9027">Economic</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1413.75"
+         y="780.32239"
+         id="tspan9032">Co-Lead</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/lyons-andy/"
+     id="aLyons"
+     transform="translate(-1250.0205,-471.02341)"
+     inkscape:label=""
+     xlink:title="Andy Lyons">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle10225"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="igis" />
+    <text
+       id="text10231"
+       y="717.56885"
+       x="1413.3306"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="717.56885"
+         x="1413.3306"
+         sodipodi:role="line"
+         id="tspan10227">Andy Lyons</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan10229"
+         y="737.56885"
+         x="1413.3306"
+         sodipodi:role="line">UCANR IGIS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1413.75"
+       y="761.98901"
+       id="text10237"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1413.75"
+         y="761.98901"
+         id="tspan10235">GIS &amp; </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         x="1413.75"
+         y="780.32239"
+         id="tspan10272">Spatial Analysis</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/feirer-shane/"
+     id="aFeirer"
+     transform="translate(-1325.5187,-294.02218)"
+     inkscape:label=""
+     xlink:title="Shane Feirer">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle11473"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="igis" />
+    <text
+       id="text11479"
+       y="717.56885"
+       x="1413.3306"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="717.56885"
+         x="1413.3306"
+         sodipodi:role="line"
+         id="tspan11475">Shane Feirer</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan11477"
+         y="737.56885"
+         x="1413.3306"
+         sodipodi:role="line">UCANR IGIS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1413.75"
+       y="761.98901"
+       id="text11485"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1413.75"
+         y="761.98901"
+         id="tspan11483"
+         sodipodi:role="line">GIS &amp; Web </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1413.75"
+         y="780.32239"
+         sodipodi:role="line"
+         id="tspan11491">Manager</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/kelly-maggi/"
+     id="aKelly"
+     transform="translate(-1331.3908,-105.27679)"
+     inkscape:label=""
+     xlink:title="Maggi Kelly">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle12688"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="igis" />
+    <text
+       id="text12694"
+       y="713.37451"
+       x="1412.4917"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="713.37451"
+         x="1412.4917"
+         sodipodi:role="line"
+         id="tspan12690">Maggi Kelly</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan12692"
+         y="733.37451"
+         x="1412.4917"
+         sodipodi:role="line">UCANR IGIS</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="753.37451"
+         x="1412.4917"
+         sodipodi:role="line"
+         id="tspan12704">UC Berkeley</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1411.2334"
+       y="774.57202"
+       id="text12700"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1411.2334"
+         y="774.57202"
+         id="tspan12696"
+         sodipodi:role="line">Director</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1411.2334"
+         y="792.9054"
+         sodipodi:role="line"
+         id="tspan12698">UCANR IGIS</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/getz-christy/"
+     id="aGetz"
+     transform="translate(-1251.6983,80.113124)"
+     inkscape:label=""
+     xlink:title="Christy Getz">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle13896"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="ucb" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1413.75"
+       y="761.98901"
+       id="text13908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1413.75"
+         y="761.98901"
+         id="tspan13904"
+         sodipodi:role="line">Case Study Lead</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1413.75"
+         y="780.32239"
+         sodipodi:role="line"
+         id="tspan13906">Policy Team</tspan></text>
+    <text
+       id="text38035"
+       y="717.56885"
+       x="1413.3306"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="717.56885"
+         x="1413.3306"
+         sodipodi:role="line"
+         id="tspan38031">Christy Getz</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan38033"
+         y="737.56885"
+         x="1413.3306"
+         sodipodi:role="line">UC Berkeley</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/castillo-federico/"
+     id="aCastillo"
+     transform="translate(-1095.6687,202.5879)"
+     inkscape:label=""
+     xlink:title="Federico Castillo">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle13912"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="ucb" />
+    <text
+       id="text13918"
+       y="718.40771"
+       x="1414.1694"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="718.40771"
+         x="1414.1694"
+         sodipodi:role="line"
+         id="tspan13914">Federico Castillo</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan13916"
+         y="738.40771"
+         x="1414.1694"
+         sodipodi:role="line">UC Berkeley</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="758.40771"
+         x="1414.1694"
+         sodipodi:role="line"
+         id="tspan13928">BFI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1417.1055"
+       y="777.92749"
+       id="text13924"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1417.1055"
+         y="777.92749"
+         id="tspan13920"
+         sodipodi:role="line">Economic Co-Lead</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1417.1055"
+         y="796.26086"
+         sodipodi:role="line"
+         id="tspan13922">Policy Team</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/bowles-timothy/"
+     id="aBowles"
+     transform="translate(-903.56782,256.27548)"
+     inkscape:label=""
+     xlink:title="Tim Bowles">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle13930"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="ucb" />
+    <text
+       id="text13938"
+       y="723.44092"
+       x="1413.3306"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="723.44092"
+         x="1413.3306"
+         sodipodi:role="line"
+         id="tspan13932">Timothy Bowles</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan13934"
+         y="743.44092"
+         x="1413.3306"
+         sodipodi:role="line">UC Berkeley</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="763.44092"
+         x="1413.3306"
+         sodipodi:role="line"
+         id="tspan13936">BFI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1416.2666"
+       y="782.96069"
+       id="text13944"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1416.2666"
+         y="782.96069"
+         sodipodi:role="line"
+         id="tspan15144">Environmental</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1416.2666"
+         y="801.29407"
+         sodipodi:role="line"
+         id="tspan15148">Lead</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/ichikawa-nina/"
+     id="aIchikawa"
+     transform="translate(-705.28559,232.90604)"
+     inkscape:label=""
+     xlink:title="Nina Ichikawa">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle15150"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="bfi" />
+    <text
+       id="text15156"
+       y="731.82959"
+       x="1414.1694"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="731.82959"
+         x="1414.1694"
+         sodipodi:role="line"
+         id="tspan15152">Nina Ichikawa</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan15154"
+         y="751.82959"
+         x="1414.1694"
+         sodipodi:role="line">BFI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1414.5889"
+       y="776.24976"
+       id="text15162"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1414.5889"
+         y="776.24976"
+         sodipodi:role="line"
+         id="tspan15160">Policy Co-Lead</tspan></text>
+  </a>
+  <a
+     class="revbg"
+     xlink:href="/member/chaifetz-ashley/"
+     id="aChaifetz"
+     transform="translate(-529.12323,128.04749)"
+     inkscape:label=""
+     xlink:title="Ashley Chaifetz">
+    <circle
+       r="80.950798"
+       cy="745.67871"
+       cx="1412.3416"
+       id="circle16353"
+       style="stroke:none;stroke-width:0;paint-order:stroke fill markers;stop-color:#000000"
+       class="usda" />
+    <text
+       id="text16359"
+       y="727.3808"
+       x="1412.9832"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="727.3808"
+         x="1412.9832"
+         sodipodi:role="line"
+         id="tspan16355">Ashley Chaifetz</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan16357"
+         y="747.3808"
+         x="1412.9832"
+         sodipodi:role="line">USDA, AMS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1413.4026"
+       y="771.80096"
+       id="text16363"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1413.4026"
+         y="771.80096"
+         sodipodi:role="line"
+         id="tspan16361">Student Impacts</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="1413.4026"
+         y="790.13434"
+         sodipodi:role="line"
+         id="tspan16367">Co-Lead</tspan></text>
+  </a>
+  <g
+     id="gOrgUCB"
+     inkscape:label=""
+     transform="translate(193.69535,-344.5061)">
+    <circle
+       r="80.950798"
+       cy="1047.2113"
+       cx="137.05701"
+       id="circle29438"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient38021);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       class="ucb" />
+    <text
+       id="text13902"
+       y="1052.0603"
+       x="136.26404"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan13900"
+         y="1052.0603"
+         x="136.26404"
+         sodipodi:role="line">UC Berkeley</tspan></text>
+  </g>
+  <g
+     id="gOrgBFI"
+     inkscape:label=""
+     transform="translate(417.83794,-251.83865)">
+    <circle
+       r="80.950798"
+       cy="1047.2113"
+       cx="137.05701"
+       id="circle38047"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient40422);fill-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       class="ucb" />
+    <text
+       id="text38051"
+       y="1033.5447"
+       x="136.94307"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan38049"
+         y="1033.5447"
+         x="136.94307"
+         sodipodi:role="line">Berkeley Food</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1056.8781"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan38057">Institute</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1080.2114"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan38059">(BFI)</tspan></text>
+  </g>
+  <g
+     id="gOrgUSDA"
+     inkscape:label=""
+     transform="translate(624.01402,-375.99673)">
+    <circle
+       r="80.950798"
+       cy="1047.2113"
+       cx="137.05701"
+       id="circle53699"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient53711);fill-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       class="ucb" />
+    <text
+       id="text53707"
+       y="1007.5447"
+       x="136.94307"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan53701"
+         y="1007.5447"
+         x="136.94307"
+         sodipodi:role="line">USDA</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1030.8781"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan53713">Agricultural</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1054.2114"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan53715">Marketing</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1077.5448"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan53703">Service</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1100.8782"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan53705">(AMS)</tspan></text>
+  </g>
+  <g
+     id="gOrgFIG"
+     inkscape:label=""
+     transform="translate(623.66278,-670.33305)">
+    <circle
+       r="80.950798"
+       cy="1047.2113"
+       cx="137.05701"
+       id="circle57829"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient57845);fill-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       class="ucb" />
+    <text
+       id="text57841"
+       y="1007.5447"
+       x="136.94307"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan57831"
+         y="1007.5447"
+         x="136.94307"
+         sodipodi:role="line">Food Insight</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1029.2113"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan57847">Group +</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1050.8779"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan57849">Food Climate</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1072.5446"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan57837">Strategies</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1094.2112"
+         x="136.94307"
+         sodipodi:role="line"
+         id="tspan57839">(FIG + FCS)</tspan></text>
+  </g>
+  <g
+     id="gOrgUCANR"
+     inkscape:label=""
+     transform="translate(385.84142,-785.68193)">
+    <circle
+       r="80.950798"
+       cy="1047.2113"
+       cx="137.05701"
+       id="circle61246"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient61262);fill-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       class="ucb" />
+    <text
+       id="text61258"
+       y="1015.6371"
+       x="137.69633"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1015.6371"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan61256">UC Ag &amp;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1038.9705"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan61275">Natural </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1062.3038"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan61277">Resources</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1085.6372"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan61279">(UCANR)</tspan></text>
+  </g>
+  <g
+     id="gOrgIGIS"
+     inkscape:label=""
+     transform="translate(163.20897,-617.50676)">
+    <circle
+       r="80.950798"
+       cy="1047.2113"
+       cx="137.05701"
+       id="circle63467"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient63481);fill-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       class="ucb" />
+    <text
+       id="text63477"
+       y="1015.6371"
+       x="137.69633"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1015.6371"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan63469">UCANR</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1038.9705"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan63483">Informatics</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1062.3038"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan63485">&amp; GIS Program</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1085.6372"
+         x="137.69633"
+         sodipodi:role="line"
+         id="tspan63475">(IGIS)</tspan></text>
+  </g>
+  <g
+     id="gOrgFarmToSchool"
+     inkscape:label=""
+     transform="matrix(1.9565397,0,0,1.9565397,275.00568,-1521.5674)">
+    <circle
+       r="80.950798"
+       cy="1047.2113"
+       cx="137.05701"
+       id="circle66891"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient66905);fill-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       class="ucb" />
+    <text
+       id="text66901"
+       y="1005.3445"
+       x="137.05701"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.3554px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.3554px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1005.3445"
+         x="137.05701"
+         sodipodi:role="line"
+         id="tspan66899">California's</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.3554px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1025.7887"
+         x="137.05701"
+         sodipodi:role="line"
+         id="tspan66916">Farm to School</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.3554px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1046.233"
+         x="137.05701"
+         sodipodi:role="line"
+         id="tspan66918">Incubator Grant</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.3554px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1066.6772"
+         x="137.05701"
+         sodipodi:role="line"
+         id="tspan66920">Program</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.3554px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1087.1215"
+         x="137.05701"
+         sodipodi:role="line"
+         id="tspan66922">Evaluation</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.3554px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         y="1107.5657"
+         x="137.05701"
+         sodipodi:role="line"
+         id="tspan66924">Team</tspan></text>
+  </g>
+</svg>
